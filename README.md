@@ -29,3 +29,15 @@ go mod tidy
 ```
 
 3. Ensure MongoDB is running locally on port `27017` or update the MongoDB connection URI in `main.go` if using a cloud instance (e.g., MongoDB Atlas).
+
+## Running the Application
+
+1. Start the Go server:
+
+```bash
+go run main.go
+```
+
+2. Open the HTML WebSocket client:
+
+You can use any static file server to serve the `index.html`.
